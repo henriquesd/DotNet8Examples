@@ -54,3 +54,14 @@ collectionExpressions.Demo();
 Console.WriteLine("-------------------------");
 
 #endregion
+
+#region Default Lambda Parameters
+
+Console.WriteLine($"Default Lambda Parameters examples:{Environment.NewLine}");
+
+var defaultLambdaParameters = new DefaultLambdaParameters();
+defaultLambdaParameters.Demo();
+
+Console.WriteLine("-------------------------");
+
+#endregion

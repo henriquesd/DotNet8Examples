@@ -65,3 +65,18 @@ defaultLambdaParameters.Demo();
 Console.WriteLine("-------------------------");
 
 #endregion
+
+#region Experimental Attribute
+
+Console.WriteLine($"Experimental Attribute examples:{Environment.NewLine}");
+
+#pragma warning disable Test001 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
+var demo = new ExperimentalAttributeDemo();
+#pragma warning restore Test001 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
+
+// It's configured on the .csproj property to ignore the Test002;
+demo.Print();
+
+Console.WriteLine("-------------------------");
+
+#endregion

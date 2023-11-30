@@ -7,3 +7,4 @@ This is a .NET project used as an example for a series of articles about .NET 8 
 - [Collection Expressions](https://henriquesd.medium.com/net-8-and-c-12-collection-expressions-61d6bb5959d6)
 - [Default Lambda Parameters](https://henriquesd.medium.com/net-8-and-c-12-default-lambda-parameters-746cedf20f45)
 - [Experimental Attribute](https://henriquesd.medium.com/net-8-and-c-12-experimental-attribute-c895d66bba4e)
+- [ref readonly Parameters](https://henriquesd.medium.com/net-8-and-c-12-ref-readonly-parameters-1c9a2be964d5)

@@ -80,3 +80,28 @@ demo.Print();
 Console.WriteLine("-------------------------");
 
 #endregion
+
+#region Ref Readonly Parameters
+
+Console.WriteLine($"Ref Readonly Parameters examples:{Environment.NewLine}");
+
+var refOnlyParametersDemo = new RefOnlyParameters();
+
+Console.WriteLine("Method with ref readonly:");
+var numberExample1 = 1;
+refOnlyParametersDemo.PrintWithRefReadonly(ref numberExample1);
+Console.WriteLine($"Your number is now {numberExample1}");
+
+Console.WriteLine("Method with in:");
+var numberExample2 = 2;
+refOnlyParametersDemo.PrintWithIn(ref numberExample2);
+Console.WriteLine($"Your number is now {numberExample2}");
+
+Console.WriteLine("Method with ref:");
+var numberExample3 = 3;
+refOnlyParametersDemo.PrintWithRef(ref numberExample3);
+Console.WriteLine($"Your number is now {numberExample3}");
+
+Console.WriteLine("-------------------------");
+
+#endregion

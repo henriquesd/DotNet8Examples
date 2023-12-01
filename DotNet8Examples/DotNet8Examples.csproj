@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<LangVersion>preview</LangVersion>
+	 <InterceptorsPreviewNamespaces>$(InterceptorsPreviewNamespaces);DotNet8Examples</InterceptorsPreviewNamespaces>
   </PropertyGroup>
 
 	<PropertyGroup>

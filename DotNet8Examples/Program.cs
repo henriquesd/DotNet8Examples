@@ -106,3 +106,15 @@ Console.WriteLine($"Your number is now {numberExample3}");
 Console.WriteLine("-------------------------");
 
 #endregion
+
+#region Interceptors
+
+Console.WriteLine($"Interceptors example:{Environment.NewLine}");
+
+var interceptableExample = new InterceptableExample();
+
+interceptableExample.PrintValue1();
+interceptableExample.PrintValue2(); // The method PrintValue2 will be intercepted;
+interceptableExample.PrintValue3();
+
+#endregion

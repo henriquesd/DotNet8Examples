@@ -117,4 +117,25 @@ interceptableExample.PrintValue1();
 interceptableExample.PrintValue2(); // The method PrintValue2 will be intercepted;
 interceptableExample.PrintValue3();
 
+Console.WriteLine("-------------------------");
+
+#endregion
+
+#region Inline Arrays
+
+Console.WriteLine($"Inline Arrays example:{Environment.NewLine}");
+
+var inlineArray = new InlineArrayDemo();
+for (int i = 0; i < 10; i++)
+{
+    inlineArray[i] = i;
+}
+
+foreach (var item in inlineArray)
+{
+    Console.Write($"{item} ");
+}
+
+Console.WriteLine($"{Environment.NewLine}-------------------------");
+
 #endregion
